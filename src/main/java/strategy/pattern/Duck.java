@@ -1,5 +1,8 @@
 package strategy.pattern;
 
+import strategy.pattern.flyBehaviorFamily.FlyBehaviour;
+import strategy.pattern.quackBehaviorFamily.QuackBehavior;
+
 public abstract class Duck {
 
     FlyBehaviour flyBehaviour;
@@ -24,4 +27,11 @@ public abstract class Duck {
     }
 
 
+    public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+        this.flyBehaviour = flyBehaviour;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
 }

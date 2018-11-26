@@ -1,4 +1,6 @@
-package strategy.pattern;
+package strategy.pattern.flyBehaviorFamily;
+
+import strategy.pattern.flyBehaviorFamily.FlyBehaviour;
 
 public class FlyWithWings implements FlyBehaviour {
 
