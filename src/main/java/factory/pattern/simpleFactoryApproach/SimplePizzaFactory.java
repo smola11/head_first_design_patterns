@@ -1,4 +1,4 @@
-package simpleFactory.approach;
+package factory.pattern.simpleFactoryApproach;
 
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {
