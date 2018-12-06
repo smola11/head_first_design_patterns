@@ -1,4 +1,4 @@
-package command.pattern;
+package command.pattern.simpleCommand;
 
 public class GarageDoor {
 
