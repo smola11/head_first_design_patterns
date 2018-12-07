@@ -1,4 +1,6 @@
-package command.pattern.simpleCommand;
+package command.pattern.moreComplexCommand.commands;
+
+import command.pattern.moreComplexCommand.Light;
 
 public class LightOnCommand implements Command {
 

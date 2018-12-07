@@ -1,5 +1,7 @@
 package command.pattern.simpleCommand;
 
+import command.pattern.simpleCommand.commands.Command;
+
 public class SimpleRemoteController {
 
     Command slot;

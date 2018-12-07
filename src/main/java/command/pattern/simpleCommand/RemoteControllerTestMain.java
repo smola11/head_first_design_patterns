@@ -1,5 +1,8 @@
 package command.pattern.simpleCommand;
 
+import command.pattern.simpleCommand.commands.GarageDoorOpenCommand;
+import command.pattern.simpleCommand.commands.LightOnCommand;
+
 public class RemoteControllerTestMain {
 
     public static void main(String[] args) {

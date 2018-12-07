@@ -1,4 +1,4 @@
-package command.pattern.simpleCommand;
+package command.pattern.simpleCommand.commands;
 
 public interface Command {
 

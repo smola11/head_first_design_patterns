@@ -1,4 +1,6 @@
-package command.pattern.simpleCommand;
+package command.pattern.simpleCommand.commands;
+
+import command.pattern.simpleCommand.GarageDoor;
 
 public class GarageDoorOpenCommand implements Command {
 
