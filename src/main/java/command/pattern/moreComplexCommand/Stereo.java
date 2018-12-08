@@ -1,4 +1,4 @@
-package command.pattern.moreComplexCommand.commands;
+package command.pattern.moreComplexCommand;
 
 public class Stereo {
 

@@ -45,5 +45,17 @@ public class RemoteLoaderMain {
         remoteControl.offButtonWasPushed(1);
         remoteControl.onButtonWasPushed(3);
         remoteControl.offButtonWasPushed(3);
+
+        // Undo functionality
+        System.out.println("TESTING UNDO");
+        remoteControl.onButtonWasPushed(0);
+        remoteControl.offButtonWasPushed(0);
+        System.out.println(remoteControl);
+        remoteControl.undoButtonWasPushed();
+        remoteControl.offButtonWasPushed(0);
+        remoteControl.onButtonWasPushed(0);
+        System.out.println(remoteControl);
+        remoteControl.undoButtonWasPushed();
+
     }
 }
