@@ -6,9 +6,9 @@ import java.util.Vector;
 
 public class EnumerationIteratorTestDrive {
 
-    public static void main (String args[]) {
-        Vector<String> v = new Vector<String>(Arrays.asList(args));
-        Iterator<?> iterator = new EnumerationIterat(v.elements());
+    public static void main(String args[]) {
+        Vector<String> v = new Vector<>(Arrays.asList(args));
+        Iterator<?> iterator = new EnumarationIteratorAdapter(v.elements());
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
