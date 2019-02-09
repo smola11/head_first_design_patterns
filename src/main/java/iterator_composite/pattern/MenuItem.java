@@ -1,6 +1,8 @@
-package iterator.pattern;
+package iterator_composite.pattern;
 
-public class MenuItem {
+import java.util.Iterator;
+
+public class MenuItem extends MenuComponent {
 
     private String name;
     private String description;
@@ -33,7 +35,17 @@ public class MenuItem {
         return vegetarian;
     }
 
-    public String toString() {
-        return (name + ", $" + price + "\n   " + description);
+    public void print() {
+        System.out.print("  " + getName());
+        if (isVegetarian()) {
+            System.out.print("(v)");
+        }
+        System.out.println(", " + getPrice());
+        System.out.println("     -- " + getDescription());
+    }
+
+    @Override
+    public Iterator createIterator() {
+        return new NullIterator();
     }
 }
