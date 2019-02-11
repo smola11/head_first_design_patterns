@@ -11,7 +11,6 @@ public class MenuTestDrive {
                 new Menu("CAFE MENU", "Dinner");
         MenuComponent dessertMenu =
                 new Menu("DESSERT MENU", "Dessert of course!");
-        MenuComponent coffeeMenu = new Menu("COFFEE MENU", "Stuff to go with your afternoon coffee");
 
         MenuComponent allMenus = new Menu("ALL MENUS", "All menus combined");
 
@@ -62,7 +61,7 @@ public class MenuTestDrive {
                 3.05));
         dinerMenu.add(new MenuItem(
                 "Steamed Veggies and Brown Rice",
-                "Steamed vegetables over brown rice",
+                "A medly of steamed vegetables over brown rice",
                 true,
                 3.99));
 
@@ -79,7 +78,6 @@ public class MenuTestDrive {
                 "Apple pie with a flakey crust, topped with vanilla icecream",
                 true,
                 1.59));
-
         dessertMenu.add(new MenuItem(
                 "Cheesecake",
                 "Creamy New York cheesecake, with a chocolate graham crust",
@@ -107,26 +105,8 @@ public class MenuTestDrive {
                 true,
                 4.29));
 
-        cafeMenu.add(coffeeMenu);
-
-        coffeeMenu.add(new MenuItem(
-                "Coffee Cake",
-                "Crumbly cake topped with cinnamon and walnuts",
-                true,
-                1.59));
-        coffeeMenu.add(new MenuItem(
-                "Bagel",
-                "Flavors include sesame, poppyseed, cinnamon raisin, pumpkin",
-                false,
-                0.69));
-        coffeeMenu.add(new MenuItem(
-                "Biscotti",
-                "Three almond or hazelnut biscotti cookies",
-                true,
-                0.89));
-
         Waitress waitress = new Waitress(allMenus);
 
-        waitress.printMenu();
+        waitress.printVegetarianMenu();
     }
 }
