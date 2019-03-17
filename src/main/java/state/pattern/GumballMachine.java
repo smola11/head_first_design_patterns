@@ -25,7 +25,7 @@ public class GumballMachine {
         }
     }
 
-    public void insertQuarter() {
+    void insertQuarter() {
         state.insertQuarter();
     }
 
@@ -33,7 +33,7 @@ public class GumballMachine {
         state.ejectQuarter();
     }
 
-    public void turnCrank() {
+    void turnCrank() {
         state.turnCrank();
         state.dispense();
     }
@@ -45,11 +45,11 @@ public class GumballMachine {
         }
     }
 
-//    void refill(int count) {
-//        this.count += count;
-//        System.out.println("The gumball machine was just refilled; it's new count is: " + this.count);
-//        state.refill();
-//    }
+    void refill(int count) {
+        this.count += count;
+        System.out.println("The gumball machine was just refilled; it's new count is: " + this.count);
+        state = 
+    }
 
     public int getCount() {
         return count;
