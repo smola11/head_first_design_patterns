@@ -1,6 +1,7 @@
 package state.pattern.state;
 
-import state.pattern.GumballMachine;
+
+import proxy.pattern.GumballMachine;
 
 public class SoldOutState implements State {
 

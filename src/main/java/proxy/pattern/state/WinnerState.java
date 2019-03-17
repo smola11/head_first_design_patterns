@@ -1,7 +1,6 @@
 package proxy.pattern.state;
 
-import state.pattern.GumballMachine;
-import state.pattern.state.State;
+import proxy.pattern.GumballMachine;
 
 public class WinnerState implements State {
 
