@@ -1,3 +1,5 @@
+package state.pattern;
+
 public class GumballMachine {
 
     private final static int SOLD_OUT = 0;
