@@ -36,7 +36,7 @@ public class GumballMachine {
         state.dispense();
     }
 
-    void releaseBall() {
+    public void releaseBall() {
         System.out.println("A gumball comes rolling out the slot...");
         if (count != 0) {
             count = count - 1;
@@ -49,11 +49,11 @@ public class GumballMachine {
 //        state.refill();
 //    }
 
-    int getCount() {
+    public int getCount() {
         return count;
     }
 
-    void setState(State state) {
+    public void setState(State state) {
         this.state = state;
     }
     public State getState() {
