@@ -1,4 +1,4 @@
-package proxy.pattern.state;
+package proxy.pattern.remote.state;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package proxy.pattern;
+package proxy.pattern.remote;
 
-import proxy.pattern.state.*;
+import proxy.pattern.remote.state.*;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;

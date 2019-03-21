@@ -1,4 +1,4 @@
-package proxy.pattern;
+package proxy.pattern.remote;
 
 import java.rmi.Naming;
 

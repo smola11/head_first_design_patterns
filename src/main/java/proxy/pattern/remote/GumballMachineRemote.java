@@ -1,6 +1,6 @@
-package proxy.pattern;
+package proxy.pattern.remote;
 
-import proxy.pattern.state.State;
+import proxy.pattern.remote.state.State;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

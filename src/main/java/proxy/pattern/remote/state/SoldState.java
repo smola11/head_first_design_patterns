@@ -1,6 +1,6 @@
-package proxy.pattern.state;
+package proxy.pattern.remote.state;
 
-import proxy.pattern.GumballMachine;
+import proxy.pattern.remote.GumballMachine;
 
 public class SoldState implements State {
 

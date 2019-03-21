@@ -1,6 +1,4 @@
-package proxy.pattern;
-
-import proxy.pattern.client.GumballMonitor;
+package proxy.pattern.remote;
 
 import java.rmi.Naming;
 
