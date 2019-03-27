@@ -1,7 +1,5 @@
 package pattern.of.pattens.observer;
 
-public class Observer {
-    public void update(QuackObservable duck) {
-
-    }
+public interface Observer {
+    void update(QuackObservable duck);
 }

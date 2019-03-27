@@ -3,10 +3,11 @@ package pattern.of.pattens.observer;
 import java.util.ArrayList;
 import java.util.List;
 
+// Helper object; Quackable object will delegate to it;
 public class Observable implements QuackObservable {
 
-    List<Observer> observers = new ArrayList<>();
-    QuackObservable duck;
+    private List<Observer> observers = new ArrayList<>();
+    private QuackObservable duck;
 
     public Observable(QuackObservable duck) {
         this.duck = duck;

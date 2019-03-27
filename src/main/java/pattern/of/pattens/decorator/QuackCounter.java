@@ -1,6 +1,7 @@
 package pattern.of.pattens.decorator;
 
 import pattern.of.pattens.Quackable;
+import pattern.of.pattens.observer.Observer;
 
 public class QuackCounter implements Quackable {
 
@@ -19,5 +20,15 @@ public class QuackCounter implements Quackable {
 
     public static int getQuacks() {
         return numberOfQuacks;
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        duck.registerObserver(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        duck.notifyObservers();
     }
 }
