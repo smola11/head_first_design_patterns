@@ -1,14 +1,14 @@
-package pattern.of.pattens.ducks;
+package pattern.of.pattens.combined.ducks;
 
-import pattern.of.pattens.Quackable;
-import pattern.of.pattens.observer.Observable;
-import pattern.of.pattens.observer.Observer;
+import pattern.of.pattens.combined.Quackable;
+import pattern.of.pattens.combined.observer.Observable;
+import pattern.of.pattens.combined.observer.Observer;
 
-public class RedheadDuck implements Quackable {
+public class MallardDuck implements Quackable {
 
     private Observable observable;
 
-    public RedheadDuck() {
+    public MallardDuck() {
         this.observable = new Observable(this);
     }
 
@@ -29,6 +29,6 @@ public class RedheadDuck implements Quackable {
     }
 
     public String toString() {
-        return "Redhead Duck";
+        return "Mallard Duck";
     }
 }

@@ -1,6 +1,6 @@
-package pattern.of.pattens.abstactFactory;
+package pattern.of.pattens.combined.abstactFactory;
 
-import pattern.of.pattens.Quackable;
+import pattern.of.pattens.combined.Quackable;
 
 public abstract class AbstactDuckFactory {
 

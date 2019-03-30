@@ -1,4 +1,4 @@
-package pattern.of.pattens.observer;
+package pattern.of.pattens.combined.observer;
 
 import java.util.ArrayList;
 import java.util.List;

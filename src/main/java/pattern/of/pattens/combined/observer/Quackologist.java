@@ -1,4 +1,4 @@
-package pattern.of.pattens.observer;
+package pattern.of.pattens.combined.observer;
 
 
 public class Quackologist implements Observer {

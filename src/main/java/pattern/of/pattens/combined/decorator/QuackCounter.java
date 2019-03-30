@@ -1,7 +1,7 @@
-package pattern.of.pattens.decorator;
+package pattern.of.pattens.combined.decorator;
 
-import pattern.of.pattens.Quackable;
-import pattern.of.pattens.observer.Observer;
+import pattern.of.pattens.combined.Quackable;
+import pattern.of.pattens.combined.observer.Observer;
 
 public class QuackCounter implements Quackable {
 

@@ -1,12 +1,12 @@
-package pattern.of.pattens;
+package pattern.of.pattens.combined;
 
-import pattern.of.pattens.abstactFactory.AbstactDuckFactory;
-import pattern.of.pattens.abstactFactory.CountingDuckFactory;
-import pattern.of.pattens.adapter.Goose;
-import pattern.of.pattens.adapter.GooseAdapter;
-import pattern.of.pattens.composite.Flock;
-import pattern.of.pattens.decorator.QuackCounter;
-import pattern.of.pattens.observer.Quackologist;
+import pattern.of.pattens.combined.abstactFactory.AbstactDuckFactory;
+import pattern.of.pattens.combined.abstactFactory.CountingDuckFactory;
+import pattern.of.pattens.combined.adapter.Goose;
+import pattern.of.pattens.combined.adapter.GooseAdapter;
+import pattern.of.pattens.combined.composite.Flock;
+import pattern.of.pattens.combined.decorator.QuackCounter;
+import pattern.of.pattens.combined.observer.Quackologist;
 
 public class DuckSimulator {
     public static void main(String[] args) {

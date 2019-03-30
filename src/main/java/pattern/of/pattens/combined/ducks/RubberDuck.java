@@ -1,20 +1,20 @@
-package pattern.of.pattens.ducks;
+package pattern.of.pattens.combined.ducks;
 
-import pattern.of.pattens.Quackable;
-import pattern.of.pattens.observer.Observable;
-import pattern.of.pattens.observer.Observer;
+import pattern.of.pattens.combined.Quackable;
+import pattern.of.pattens.combined.observer.Observable;
+import pattern.of.pattens.combined.observer.Observer;
 
-public class DuckCall implements Quackable {
+public class RubberDuck implements Quackable {
 
     private Observable observable;
 
-    public DuckCall() {
+    public RubberDuck() {
         this.observable = new Observable(this);
     }
 
     @Override
     public void quack() {
-        System.out.println("Kwak");
+        System.out.println("Squeak");
         notifyObservers();
     }
 
@@ -29,6 +29,6 @@ public class DuckCall implements Quackable {
     }
 
     public String toString() {
-        return "Duck Call";
+        return "Rubber Duck";
     }
 }

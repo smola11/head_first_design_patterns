@@ -1,7 +1,7 @@
-package pattern.of.pattens.composite;
+package pattern.of.pattens.combined.composite;
 
-import pattern.of.pattens.Quackable;
-import pattern.of.pattens.observer.Observer;
+import pattern.of.pattens.combined.Quackable;
+import pattern.of.pattens.combined.observer.Observer;
 
 import java.util.ArrayList;
 import java.util.Iterator;

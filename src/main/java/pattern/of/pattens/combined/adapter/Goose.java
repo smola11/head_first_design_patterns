@@ -1,4 +1,4 @@
-package pattern.of.pattens.adapter;
+package pattern.of.pattens.combined.adapter;
 
 public class Goose {
 

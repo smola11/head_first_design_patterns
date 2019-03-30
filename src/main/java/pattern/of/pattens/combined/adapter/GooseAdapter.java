@@ -1,20 +1,22 @@
-package pattern.of.pattens.ducks;
+package pattern.of.pattens.combined.adapter;
 
-import pattern.of.pattens.Quackable;
-import pattern.of.pattens.observer.Observable;
-import pattern.of.pattens.observer.Observer;
+import pattern.of.pattens.combined.Quackable;
+import pattern.of.pattens.combined.observer.Observable;
+import pattern.of.pattens.combined.observer.Observer;
 
-public class MallardDuck implements Quackable {
+public class GooseAdapter implements Quackable {
 
+    private Goose goose;
     private Observable observable;
 
-    public MallardDuck() {
+    public GooseAdapter(Goose goose) {
+        this.goose = goose;
         this.observable = new Observable(this);
     }
 
     @Override
     public void quack() {
-        System.out.println("Quack");
+        this.goose.honk();
         notifyObservers();
     }
 
@@ -29,6 +31,6 @@ public class MallardDuck implements Quackable {
     }
 
     public String toString() {
-        return "Mallard Duck";
+        return "Goose pretending to be a Duck";
     }
 }
