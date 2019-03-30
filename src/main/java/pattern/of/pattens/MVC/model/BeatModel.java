@@ -1,9 +1,5 @@
 package pattern.of.pattens.MVC.model;
 
-import pattern.of.pattens.MVC.BPMObserver;
-import pattern.of.pattens.MVC.BeatModelInterface;
-import pattern.of.pattens.MVC.BeatObserver;
-
 import javax.sound.midi.*;
 import java.util.ArrayList;
 import java.util.List;

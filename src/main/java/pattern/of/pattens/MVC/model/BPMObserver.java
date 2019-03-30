@@ -1,4 +1,4 @@
-package pattern.of.pattens.MVC;
+package pattern.of.pattens.MVC.model;
 
 public interface BPMObserver {
     void updateBPM();
